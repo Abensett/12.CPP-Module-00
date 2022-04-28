@@ -21,10 +21,6 @@ std::endl = passage à la ligne
 
 using std::cout;
  
-using std::endl;
- 
-using std::toupper; 
-
 pour juste ecrire
 cout
 ou std::endl
