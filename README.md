@@ -34,11 +34,24 @@ First project of C++ piscine
 ### CLASSES
 
 <details>
-<summary> Classe MaClasse { }*;* </summary>
+<summary> class MaClasse { public: ...; private: ...;}; </summary>
 
 > *
 > *
 > *
+ 
+ 
+</details>
+### CONST
+
+<details>
+<summary> </summary>
+
+> * const char c1;           //Le caractère ne peut être modifié
+> * const char * c2;         //Le caractère pointé ne peut être modifié
+> * char * const c3;         //Le pointeur vers le caractère ne peut être modifié
+> * const char * const c4;   //Le pointeur ET le caractère pointé ne peuvent être modifiés
+
  
  
 </details>
