@@ -11,11 +11,9 @@ listes d’initialisation, static, const, et autres bases
 
  
 
-std::cout <<
- 
-std::cin >> buff
- 
-std::cout << "You entered" <<buff<< std::endl 
+>std::cout <<
+ std::cin >> buff
+ std::cout << "You entered" <<buff<< std::endl 
  
 std::endl = passage à la ligne
 
