@@ -12,12 +12,17 @@ listes d’initialisation, static, const, et autres bases
  
 
 std::cout <<
+ 
 std::cin >> buff
+ 
 std::cout << "You entered" <<buff<< std::endl 
+ 
 std::endl = passage à la ligne
 
 using std::cout;
+ 
 using std::endl;
+ 
 using std::toupper; 
 
 pour juste ecrire
