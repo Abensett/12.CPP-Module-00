@@ -27,19 +27,30 @@ First project of C++ piscine
 > *std::cin >> buff
 > *std::cout << "You entered" <<buff<< std::endl 
 > *std::endl = passage à la ligne
-
+>
 > *using std::cout;  => pour juste ecrire cout*
-
- 
-
 </details>
 
+### CLASSES
 
+<details>
+<summary> Classe MaClasse { }*;* </summary>
+
+> *
+> *
+> *
+ 
+ 
+</details>
 
 ### PART
 
 <details>
 <summary> </summary>
 
+> *
+> *
+> *
+ 
  
 </details>
