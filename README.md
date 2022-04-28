@@ -5,8 +5,9 @@ First project of C++ piscine
 Namespaces, classes, fonctions membres, stdiostreams,
 listes d’initialisation, static, const, et autres bases
 
+### STDIOSTREAMS
 <details>
-<summary>### STDIOSTREAMS</summary>
+<summary>### std::cout</summary>
 std::cout <<
 std::cin >> buff
 std::cout << "You entered" <<buff<< std::endl 
