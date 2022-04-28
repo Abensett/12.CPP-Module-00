@@ -8,10 +8,10 @@ First project of C++ piscine
 
 
 <details>
-<summary> It's a local scope </summary>
-Namespaces provide a method for preventing name conflicts in large projects.
+< summary> It's a local scope </summary>
+> Namespaces provide a method for preventing name conflicts in large projects.
  
-Symbols declared inside a namespace block are placed in a named scope that prevents them from being mistaken for identically-named symbols in other scopes.
+> Symbols declared inside a namespace block are placed in a named scope that prevents them from being mistaken for identically-named > symbols in other scopes.
 </details>
 
 
