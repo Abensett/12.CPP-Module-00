@@ -25,13 +25,16 @@ Symbols declared inside a namespace block are placed in a named scope that preve
 
 using std::cout;  => pour juste ecrire cout
 ou std::endl
+ 
+ 
+
+</details>
+
 /**/
 ### PART
  
  
  #  a21
-</details>
-
 <details>
 <summary> </summary>
 
