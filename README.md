@@ -10,7 +10,14 @@ listes d’initialisation, static, const, et autres bases
 
 Namespaces provide a method for preventing name conflicts in large projects.
 
-Symbols declared inside a namespace block are placed in a named scope that prevents them from being mistaken for identically-named symbols in other scopes. 
+ 
+<details>
+<summary> It's a local scope </summary>
+
+Symbols declared inside a namespace block are placed in a named scope that prevents them from being mistaken for identically-named symbols in other scopes.
+</details>
+
+
 
 ### STDIOSTREAMS
 <details>
@@ -30,11 +37,10 @@ ou std::endl
 
 </details>
 
-/**/
+
+
 ### PART
- 
- 
- #  a21
+
 <details>
 <summary> </summary>
 
