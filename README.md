@@ -7,7 +7,7 @@ listes d’initialisation, static, const, et autres bases
 
 ### STDIOSTREAMS
 <details>
-<summary>### std::cout</summary>
+<summary>std::cout << "HELLO WORLD !" << std::endl </summary>
 std::cout <<
 std::cin >> buff
 std::cout << "You entered" <<buff<< std::endl 
