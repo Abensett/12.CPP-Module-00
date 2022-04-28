@@ -11,15 +11,11 @@ listes d’initialisation, static, const, et autres bases
 
  
 
->std::cout <<
->std::cin >> buff
->std::cout << "You entered" <<buff<< std::endl 
- 
-std::endl = passage à la ligne
+*std::cout <<
+*std::cin >> buff
+*std::cout << "You entered" <<buff<< std::endl 
+*std::endl = passage à la ligne
 
-using std::cout;
- 
-pour juste ecrire
-cout
+using std::cout;  => pour juste ecrire cout
 ou std::endl
 </details>
