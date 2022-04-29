@@ -1,7 +1,9 @@
 # 12.-C++ MODULE 00
 First project of C++ piscine
 
-## SUMMARY : Namespaces, classes, fonctions membres, stdiostreams, listes d’initialisation, static, const, et autres bases
+## SUMMARY : 
+
+## Namespaces, classes, fonctions membres, stdiostreams, listes d’initialisation, static, const, et autres bases
 
 
 ### Namespaces
@@ -42,6 +44,7 @@ First project of C++ piscine
  
  
 </details>
+
 ### CONST
 
 <details>
@@ -56,7 +59,19 @@ First project of C++ piscine
  
 </details>
 
-### PART
+### Static
+
+<details>
+<summary> </summary>
+
+> *
+> *
+> *
+ 
+ 
+</details>
+
+### Listes d’initialisation
 
 <details>
 <summary> </summary>
