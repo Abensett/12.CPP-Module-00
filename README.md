@@ -3,9 +3,14 @@ First project of C++ piscine
 
 # SUMMARY : 
 
-  ## Namespaces, classes, fonctions membres, stdiostreams, listes d’initialisation, static, const, et autres bases
-
-
+  * Namespaces  
+  * Classes  
+  * Fonctions membres
+  * Stdiostreams  
+  * Listes d’initialisation
+  * Static, Const
+  * autre bases
+ 
   ### Namespaces
 
 
