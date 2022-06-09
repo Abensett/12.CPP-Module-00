@@ -37,7 +37,7 @@ LDFLAGS			=
 #                                SOURCE FILES                                  #
 # **************************************************************************** #
 
-SRC =  Account.cpp
+SRC =  Account.cpp tests.cpp
 
 OBJ := $(SRC:.cpp=.o)
 
