@@ -26,11 +26,11 @@ DIROBJ			= objs/
 
 CC				= g++
 
-CFLAGS 			= -Wall -Wextra -Werror
+CFLAGS 			= -Wall -Wextra -Werror -std=c++98
 
-INCLUDES 		= -I /includes 
+INCLUDES 		= -I /includes
 
-LDFLAGS			= 
+LDFLAGS			=
 
 
 # **************************************************************************** #
@@ -55,7 +55,7 @@ $(DIROBJ)%.o:./%.c
 			mkdir -p $(DIROBJ)
 			$(CC) $(CFLAGS) $(INCLUDES) -c $< -o $@
 
-$(NAME):	
+$(NAME):
 			@printf "\033[2K\r $(_YELLOW)Compiling $< $(_END)⌛"
 			@$(CC) $(CFLAGS) $(SRC) $(INCLUDES)  $(LDFLAGS) -o $@
 			@printf "\n[$(GREEN)OK$(WHITE)] $(NAME) generated \n"

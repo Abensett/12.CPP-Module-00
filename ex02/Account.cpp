@@ -10,6 +10,7 @@ int Account::_totalAmount = 0;
 int Account::_totalNbDeposits = 0;
 int Account::_totalNbWithdrawals = 0;
 
+// Constructeur pour chacune des valeurs
 Account::Account(int initial_deposit) {
     _accountIndex = _nbAccounts++;
     _amount = initial_deposit;
@@ -19,7 +20,7 @@ Account::Account(int initial_deposit) {
     cout << "amount:" << _amount << ";";
     cout << "created" << endl;
 }
-
+// Destructeur
 Account::~Account(void) {
     _displayTimestamp();
     cout << "index:" << _accountIndex << ";";
@@ -43,6 +44,7 @@ int Account::getNbWithdrawals(void) {
     return _totalNbWithdrawals;
 }
 
+// We display time stamps then all the infos
 void Account::displayAccountsInfos(void) {
     _displayTimestamp();
     cout << "accounts:" << _nbAccounts << ";";
@@ -50,7 +52,7 @@ void Account::displayAccountsInfos(void) {
     cout << "deposits:" << _totalNbDeposits << ";";
     cout << "withdrawals:" << _totalNbWithdrawals << endl;
 }
-
+// Lors d'un depot: affiche time stamp then amount
 void Account::makeDeposit(int deposit) {
     _totalAmount += deposit;
     ++_totalNbDeposits;
@@ -64,6 +66,7 @@ void Account::makeDeposit(int deposit) {
     cout << "nb_deposits:" << _nbDeposits << endl;
 }
 
+// Check if withdral < amount if true -> accepted else refused
 bool Account::makeWithdrawal(int withdrawal) {
     bool success = withdrawal <= _amount;
     _displayTimestamp();
@@ -90,7 +93,7 @@ bool Account::makeWithdrawal(int withdrawal) {
 int Account::checkAmount(void) const {
     return _amount;
 }
-
+// Display the status of the account
 void Account::displayStatus(void) const {
     _displayTimestamp();
     cout << "index:" << _accountIndex << ";";

@@ -28,9 +28,9 @@ CC				= c++
 
 CFLAGS 			= -Wall -Wextra -Werror  -std=c++98
 
-INCLUDES 		= 
+INCLUDES 		=
 
-LDFLAGS			= 
+LDFLAGS			=
 
 
 # **************************************************************************** #
@@ -38,7 +38,8 @@ LDFLAGS			=
 # **************************************************************************** #
 
 SRC = PhoneBook.cpp \
-	  main.cpp
+		Contact.cpp\
+		main.cpp
 
 OBJ := $(SRC:.cpp=.o)
 

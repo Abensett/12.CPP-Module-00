@@ -24,9 +24,9 @@ DIROBJ			= objs/
 #                         COMPILATION AND LINK FLAGS                           #
 # **************************************************************************** #
 
-CC				= g++
+CC				= c++
 
-CFLAGS 			= -Wall -Wextra -Werror
+CFLAGS 			= -Wall -Wextra -Werror -std=c++98
 
 INCLUDES 		= -I ./
 
@@ -37,7 +37,7 @@ LDFLAGS			=
 #                                SOURCE FILES                                  #
 # **************************************************************************** #
 
-SRC =  Account.cpp tests.cpp
+SRC =  Account.cpp tests.cpp 
 
 OBJ := $(SRC:.cpp=.o)
 
