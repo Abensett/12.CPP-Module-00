@@ -51,7 +51,8 @@ First project of C++ piscine
       const char * c2;         //Le caractère pointé ne peut être modifié
       char * const c3;         //Le pointeur vers le caractère ne peut être modifié
       const char * const c4;   //Le pointeur ET le caractère pointé ne peuvent être modifiés
-      Dans le cas d'une fonction membre un const en fin de fonction signifie qu'elle ne modifie pas l'instance de classe
+      Dans le cas d'une fonction membre un const en fin de fonction 
+      signifie qu'elle ne modifie pas l'instance de classe [voir Contact.hpp](./ex01/Contact.hpp)
  
  
 </details>
