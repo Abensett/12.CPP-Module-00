@@ -42,9 +42,9 @@ First project of C++ piscine
 [voir Phonebook.hpp](./ex01/PhoneBook.hpp)
 
 ### CONST
-
+[voir Contact.hpp](./ex01/Contact.hpp)
 <details> 
-<summary> [voir Contact.hpp](./ex01/Contact.hpp) </summary>
+<summary> gotta used to it 'cause it makes the program more stable  </summary>
 
       
       const char c1;           //Le caractère ne peut être modifié
