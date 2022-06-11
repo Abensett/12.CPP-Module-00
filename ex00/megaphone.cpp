@@ -6,7 +6,7 @@
 /*   By: abensett <abensett@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/28 04:10:35 by abensett          #+#    #+#             */
-/*   Updated: 2022/06/11 18:53:55 by abensett         ###   ########.fr       */
+/*   Updated: 2022/06/11 23:04:44 by abensett         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,29 +16,29 @@
 flux de sortie standard,
 flux d'erreur standard non mis en mémoire tampon et
 flux d'erreur standard mis en mémoire tampon.*/
-#include <cstring>
+#include <string>
 
 /* This file defines many string functions such as strlen*/
 
-/*  - std est le namespace
+/*  - std est le namespace standard
     - << operateur d'insertion
+    - :: Operateur de resolution de portee permet de recuperer les infos du namespace
     - endl  = \n */
 
 using std::cout;
+using std::string;
 
 int main(int ac, char **av)
 {
-
     if (ac == 1)
     {
         cout << "* LOUD AND UNBEARABLE FEEDBACK NOISE *";
     }
-    while (--ac)
+    for (int j = 1; j < ac; j++)
     {
-        av++;
-        for (unsigned int i = 0; i < strlen(*av); i++)
-            (*av)[i] = std::toupper((*av)[i]);
-        cout << *av;
+        string str(av[j]);
+        for (unsigned int i = 0; i < str.length(); i++)
+            cout << (char)std::toupper(str[i]);
     }
     cout << std::endl;
     return(0);
